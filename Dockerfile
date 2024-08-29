@@ -25,7 +25,7 @@ COPY src src
 
 RUN cargo build --release
 
-FROM ubuntu:22.04 as runtime
+FROM ubuntu:24.04 as runtime
 
 WORKDIR /
 
