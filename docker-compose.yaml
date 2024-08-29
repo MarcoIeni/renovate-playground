@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  db:
+    image: postgres:15.5
+    environment:
+      POSTGRES_USER: bors
+      POSTGRES_PASSWORD: bors
+      POSTGRES_DB: bors
+    ports:
+      - "5432:5432"
