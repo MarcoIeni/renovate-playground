@@ -13,12 +13,12 @@
       // are updated periodically with lockfile maintainance.
       enabled: false,
     },
-    {
-      vulnerabilityAlerts: {
-        enabled: true,
-      },
-    },
   ],
+  {
+    vulnerabilityAlerts: {
+      enabled: true,
+    },
+  },
 }
 
 // Note:
