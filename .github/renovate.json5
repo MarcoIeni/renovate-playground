@@ -13,9 +13,15 @@
       // are updated periodically with lockfile maintainance.
       enabled: false,
     },
+    {
+      vulnerabilityAlerts: {
+        enabled: true,
+      },
+    },
   ],
 }
 
 // Note:
 // - Enable "Dependabot alerts" in "Code security" GitHub Settings to receive
-//   updates to fix security vulnerabilities
+//   updates to fix security vulnerabilities.
+//   See https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts
