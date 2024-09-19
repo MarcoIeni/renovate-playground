@@ -14,10 +14,8 @@
       enabled: false,
     },
   ],
-  {
-    vulnerabilityAlerts: {
-      enabled: true,
-    },
+  vulnerabilityAlerts: {
+    enabled: true,
   },
 }
 
